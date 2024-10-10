@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/blockchain.sol": "BlockchainP"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/blockchain.sol": {
+			"keccak256": "0x988c9d78a453951ee66fbe8e0f6bcc1eaf8dfe6f1a610b721b082544b012fe2f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://180bedda13e8e96ea7ed53dde5fe365104a15fe22128eed2980ad15968ac17c3",
+				"dweb:/ipfs/QmUtx4uE4THP9XjGeW2bSUr86fwoFTzBrSEiiwaAWUhkdy"
+			]
+		}
+	},
+	"version": 1
+}

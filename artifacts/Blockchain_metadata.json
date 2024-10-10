@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/blockchain.sol": "Blockchain"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/blockchain.sol": {
+			"keccak256": "0x3023415e22e40a0fbc128f819952eeeb1d1093265c6efbe31b96ac045cada761",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0db50899d74002a0b32e85c0425ba8a2e5feea74d6bd0066e8ac1c10eb140eaa",
+				"dweb:/ipfs/QmXuX3QiNtLLQZRcHYbEgxmAhigzC1DWer8fHpWhF9Ut5J"
+			]
+		}
+	},
+	"version": 1
+}
